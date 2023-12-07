@@ -57,19 +57,13 @@ const Contact = () => {
 							periods. Alternatively, you can use the contact form
 							on my website to get in touch. Simply fill out the
 							required fields and I'll get back to you as soon as
-							possible. Finally, if you prefer to connect on
-							social media, you can find me on{" "}
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								{INFO.socials.instagram}
+							possible.
+							<br/><br/>below is the link to google forms to submit your queries.
+							&nbsp;{" "}
+							{/* open in new tab */}
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSfLG6lp9SoPEjtbJpc2Kggz7tJnfQkoQ3FDWnw-F8scqscTOA/viewform?usp=sf_link" target="_blank" rel="noreferrer">
+								Contact Form
 							</a>
-							. I post regular updates and engage with my
-							followers there, so don't hesitate to reach out.
-							Thanks again for your interest, and I look forward
-							to hearing from you!
 						</div>
 					</div>
 

@@ -1,65 +1,28 @@
 import React from "react";
 
-function article_1() {
+function skill_01() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
-		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
-		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+		title: "Front-end Development",
+		skills: [
+			"Flutter - Mobile App Development",
+			"Flutter - Web App Development",
+			"ReactJS - Web App Development"
 		],
-		style: `
-				.article-content {
-					display: flex;
-					flex-direction: column;
-					align-items: center;
-				}
-
-				.randImage {
-					align-self: center;
-					outline: 2px solid red;
-				}
-				`,
-		body: (
-			<React.Fragment>
-				<div className="article-content">
-					<div className="paragraph">Content of article 1</div>
-					<img
-						src="https://picsum.photos/200/300"
-						alt="random"
-						className="randImage"
-					/>
-				</div>
-			</React.Fragment>
-		),
 	};
 }
 
-function article_2() {
+function skill_02() {
 	return {
-		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
-		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
-		style: ``,
-		keywords: [
-			"Artificial Intelligence in Healthcare",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+		title: "Back-end Development",
+		skills: [
+			"Dart - Flutter",
+			"JavaScript - ReactJS",
+			"NodeJS - ExpressJS",
+			"PHP - CodeIgniter"
 		],
-		body: (
-			<React.Fragment>
-				<h1>Content of article 2</h1>
-			</React.Fragment>
-		),
 	};
 }
 
-const myArticles = [article_1, article_2];
+const myArticles = [skill_01, skill_02];
 
 export default myArticles;
