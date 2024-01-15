@@ -479,11 +479,20 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
+    height: 70px;
+    display: flex;
+    background: none;
+    border-radius: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 12px;
 }
+
+/* @media screen and (max-width: 768px) {
+ .skills .progress {
+  height: 80px;
+}
+} */
 
 .skills .progress .skill {
   padding: 10px 0;
@@ -493,6 +502,9 @@ section {
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #45505b;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .skills .progress .skill .val {
